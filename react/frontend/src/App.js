@@ -31,7 +31,6 @@ function App() {
       </ul>
 
       <p>{ ideas.length } awesome ideas.</p>
-      
     </div>
   );
 }

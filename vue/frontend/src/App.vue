@@ -22,5 +22,4 @@ const deleteIdea = index => {
   </ul>
 
   <p>{{ ideas.length }} awesome ideas.</p>
-
 </template>
