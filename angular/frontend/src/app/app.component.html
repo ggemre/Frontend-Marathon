@@ -1,0 +1,10 @@
+<h1>My Angular App</h1>
+
+<input #idea type='text' placeholder='Enter an idea'>
+<button (click)='addIdea(idea.value)'>Add Idea</button>
+
+<ul>
+  <li *ngFor='let idea of ideas'>{{ idea }}<button (click)='removeIdea(idea)'>Delete</button></li>
+</ul>
+
+<p>{{ ideas.length }} awesome ideas.</p>
